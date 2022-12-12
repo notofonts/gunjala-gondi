@@ -1,14 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/VowelAa.GGondi/VowelI.GGondi/VowelIi.GGondi/VowelU.GGondi/VowelUu.GGondi/VowelEe.GGondi/VowelAi.GGondi/VowelOo.GGondi/VowelAu.GGondi \012/Ya.GGondi/Va.GGondi/Ba.GGondi/Bha.GGondi/Ma.GGondi/Ka.GGondi/Kha.GGondi/Ta.GGondi/Tha.GGondi/La.GGondi \012/Ga.GGondi/Gha.GGondi/Da.GGondi/Dha.GGondi/Na.GGondi/Ca.GGondi/Cha.GGondi/Tta.GGondi/Ttha.GGondi/Lla.GGondi/Ja.GGondi \012/Jha.GGondi/Dda.GGondi/Ddha.GGondi/Nga.GGondi/Pa.GGondi/Pha.GGondi/Ra.GGondi/Sa.GGondi/MatraAa.GGondi/MatraI.GGondi/MatraIi.GGondi/MatraU.GGondi/MatraUu.GGondi/MatraOo.GGondi/MatraAu.GGondi",
-"/MatraI_alt1.GGondi/MatraI_alt2.GGondi/MatraIi_alt1.GGondi/MatraIi_alt2.GGondi",
-"/MatraAa.GGondi/MatraI.GGondi/MatraAa.GGondi/MatraI_alt1.GGondi/MatraAa.GGondi/MatraI_alt2.GGondi/MatraAa.GGondi/MatraIi_alt1.GGondi/MatraAa.GGondi/MatraIi_alt2.GGondi/MatraAa.GGondi",
-"/Ya.GGondi/MatraEe.GGondi/space/Dha.GGondi/Ma.GGondi/Virama.GGondi/Ma.GGondi/MatraAa.GGondi/space/Ha.GGondi/MatraEe.GGondi/Ta.GGondi/MatraU.GGondi/Pa.GGondi/Virama.GGondi/Pa.GGondi/Bha.GGondi/Va.GGondi/MatraAa.GGondi/space/Ta.GGondi/MatraEe.GGondi/Sa.GGondi/Anusvara.GGondi/space/Ha.GGondi/MatraEe.GGondi/Ta.GGondi/MatraU.GGondi/Anusvara.GGondi/space/Ta.GGondi/Tha.GGondi/MatraAa.GGondi/Ga.GGondi/Ta.GGondi/MatraOo.GGondi/space/VowelAa.GGondi/Ha.GGondi/space .\012/Ta.GGondi/MatraEe.GGondi/Sa.GGondi/Na.GGondi/Virama.GGondi/Ca.GGondi/space/Ya.GGondi/MatraOo.GGondi/space/Na.GGondi/MatraI.GGondi/Ra.GGondi/MatraOo.GGondi/Dha.GGondi/MatraOo.GGondi/space/VowelEe.GGondi/Va.GGondi/Anusvara.GGondi/space/Va.GGondi/MatraAa.GGondi/Da.GGondi/MatraIi.GGondi/space/Ma.GGondi/Ha.GGondi/MatraAa.GGondi/Sa.GGondi/Ma.GGondi/Na.GGondi/MatraOo.GGondi \012/VowelA.GGondi/Na.GGondi/MatraI.GGondi/Ra.GGondi/MatraOo.GGondi/Dha.GGondi/Ma.GGondi/space/VowelA.GGondi/Na.GGondi/MatraU.GGondi/Ta.GGondi/Virama.GGondi/Pa.GGondi/MatraAa.GGondi/Da.GGondi/Ma.GGondi/space/VowelA.GGondi/Na.GGondi/MatraU.GGondi/Ca.GGondi/Virama.GGondi/Cha.GGondi/MatraEe.GGondi/Da.GGondi/Ma.GGondi/space/VowelA.GGondi/Sa.GGondi/MatraAa.GGondi/Sa.GGondi/Virama.GGondi/Va.GGondi/Ta.GGondi/Ma.GGondi/space .\012/VowelA.GGondi/Na.GGondi/MatraEe.GGondi/Ka.GGondi/MatraAa.GGondi/Ra.GGondi/Virama.GGondi/Tha.GGondi/Ma.GGondi/space/VowelA.GGondi/Na.GGondi/MatraAa.GGondi/Na.GGondi/MatraAa.GGondi/Ra.GGondi/Virama.GGondi/Tha.GGondi/Ma.GGondi/space/VowelA.GGondi/Na.GGondi/MatraAa.GGondi/Ga.GGondi/Ma.GGondi/Ma.GGondi/space/VowelA.GGondi/Na.GGondi/MatraI.GGondi/Ra.GGondi/Virama.GGondi/Ga.GGondi/Ma.GGondi/Ma.GGondi/space ..\012/Ya.GGondi/Visarg.GGondi/space/Pa.GGondi/Virama.GGondi/Ra.GGondi/Ta.GGondi/MatraIi.GGondi/Ta.GGondi/Virama.GGondi/Ya.GGondi/Sa.GGondi/Ma.GGondi/MatraU.GGondi/Ta.GGondi/Virama.GGondi/Pa.GGondi/MatraAa.GGondi/Da.GGondi/Anusvara.GGondi/space/Pa.GGondi/Virama.GGondi/Ra.GGondi/Pa.GGondi/Na.GGondi/Virama.GGondi/Ca.GGondi/MatraOo.GGondi/Pa.GGondi/Sa.GGondi/Ma.GGondi/Anusvara.GGondi/space/Sa.GGondi/MatraI.GGondi/Va.GGondi/Ma.GGondi/space .\012/Da.GGondi/MatraEe.GGondi/Sa.GGondi/Ya.GGondi/MatraAa.GGondi/Ma.GGondi/MatraAa.GGondi/Sa.GGondi/space/Sa.GGondi/Anusvara.GGondi/Ba.GGondi/MatraU.GGondi/Da.GGondi/Virama.GGondi/Dha.GGondi/Sa.GGondi/Virama.GGondi/Ta.GGondi/Anusvara.GGondi/space/Va.GGondi/Na.GGondi/Virama.GGondi/Da.GGondi/MatraEe.GGondi/space/Va.GGondi/Da.GGondi/Ta.GGondi/MatraAa.GGondi/Anusvara.GGondi/space/Va.GGondi/Ra.GGondi/Ma.GGondi/space ..",
-"/_Halant.GGondi",
-"/DhaMatraU.GGondi/HaMatraUu.GGondi",
-"/DdaMatraUu.GGondi",
-"/Zero.GGondi/One.GGondi/Eight.GGondi/Two.GGondi/Eight.GGondi/Three.GGondi/Eight.GGondi/Eight.GGondi/Eight.GGondi/Eight.GGondi/Two.GGondi/Eight.GGondi/Two.GGondi/Eight.GGondi/Two.GGondi/Five.GGondi/Two.GGondi/Five.GGondi/Eight.GGondi/Five.GGondi/Eight.GGondi/Five.GGondi/Nine.GGondi/Four.GGondi/Nine.GGondi/Four.GGondi/Eight.GGondi/One.GGondi/Eight.GGondi/One.GGondi/Two.GGondi/One.GGondi/Two.GGondi/One.GGondi/Four.GGondi/Seven.GGondi/Four.GGondi/Seven.GGondi/Eight.GGondi/Seven.GGondi/Eight.GGondi/Seven.GGondi/Two.GGondi/Seven.GGondi/Two.GGondi/Seven.GGondi/Nine.GGondi/Three.GGondi/Nine.GGondi/Three.GGondi/Two.GGondi/Three.GGondi/Two.GGondi/Three.GGondi/Two.GGondi/Two.GGondi/Two.GGondi/Two.GGondi/Eight.GGondi/Two.GGondi/Eight.GGondi/Two.GGondi/Nine.GGondi/Two.GGondi/Nine.GGondi/Two.GGondi/BaMatraU.GGondi ,/BaMatraU.GGondi ,/BhaMatraU.GGondi ,/CaMatraU.GGondi ,/ChaMatraU.GGondi ,/DaMatraU.GGondi ,/DdaMatraU.GGondi ,/DdhaMatraU.GGondi ,/DhaMatraU.GGondi ,/GaMatraU.GGondi ,/GhaMatraU.GGondi ,/HaMatraU.GGondi ,/JaMatraU.GGondi ,/JhaMatraU.GGondi ,/KaMatraU.GGondi ,/KhaMatraU.GGondi ,/LaMatraU.GGondi ,/LlaMatraU.GGondi ,/MaMatraU.GGondi ,/NaMatraU.GGondi ,/NgaMatraU.GGondi ,/PaMatraU.GGondi ,/PhaMatraU.GGondi ,/RaMatraU.GGondi ,/SaMatraU.GGondi ,/TaMatraU.GGondi ,/ThaMatraU.GGondi ,/TtaMatraU.GGondi ,/TthaMatraU.GGondi ,/VaMatraU.GGondi ,/YaMatraU.GGondi ,/MatraU.GGondi ,/MatraU.GGondi ,/Ma.GGondi ,/Ma.GGondi ,/Ga.GGondi ,/Dha.GGondi ,/Ca.GGondi ,/Lla.GGondi ,/Ddha.GGondi ,/Nga.GGondi ,/Ya.GGondi ,/Ya.GGondi ,/Na.GGondi ,/Na.GGondi ,/BaMatraU.GGondi ./BaMatraU.GGondi ./BhaMatraU.GGondi ./CaMatraU.GGondi ./ChaMatraU.GGondi ./DaMatraU.GGondi ./DdaMatraU.GGondi ./DdhaMatraU.GGondi ./DhaMatraU.GGondi ./GaMatraU.GGondi ./GhaMatraU.GGondi ./HaMatraU.GGondi ./JaMatraU.GGondi ./JhaMatraU.GGondi ./KaMatraU.GGondi ./KhaMatraU.GGondi ./LaMatraU.GGondi ./LlaMatraU.GGondi ./MaMatraU.GGondi ./NaMatraU.GGondi ./NgaMatraU.GGondi ./PaMatraU.GGondi ./PhaMatraU.GGondi ./RaMatraU.GGondi ../TaMatraU.GGondi ./ThaMatraU.GGondi ./TtaMatraU.GGondi ./TthaMatraU.GGondi ./VaMatraU.GGondi ./YaMatraU.GGondi ./MatraU.GGondi ./MatraU.GGondi ./Ma.GGondi ./Ma.GGondi ./Ga.GGondi ./Dha.GGondi ./Ca.GGondi ./Lla.GGondi ./Ddha.GGondi ./Nga.GGondi ./Ya.GGondi ./Ya.GGondi ./Va.GGondi ./Va.GGondi ./Ba.GGondi ./Na.GGondi ./Cha.GGondi ./Five.GGondi/Six.GGondi/Seven.GGondi/Eight.GGondi/Eight.GGondi/Nine.GGondi"
+"/uni25CC"
 );
 classes = (
 {
@@ -386,6 +379,14 @@ value = 50;
 {
 name = underlinePosition;
 value = -100;
+},
+{
+name = winAscent;
+value = 1062;
+},
+{
+name = winDescent;
+value = 286;
 }
 );
 descender = -252;
@@ -437,6 +438,14 @@ value = 50;
 {
 name = underlinePosition;
 value = -100;
+},
+{
+name = winAscent;
+value = 1062;
+},
+{
+name = winDescent;
+value = 286;
 }
 );
 descender = -252;
@@ -19915,9 +19924,19 @@ unicode = 0025;
 },
 {
 glyphname = uni25CC;
-lastChange = "2021-10-18 08:30:41 +0000";
+lastChange = "2022-12-12 13:25:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{382, -28}";
+},
+{
+name = top;
+position = "{407, 665}";
+}
+);
 background = {
 paths = (
 {
@@ -20472,6 +20491,16 @@ nodes = (
 width = 594;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{382, -28}";
+},
+{
+name = top;
+position = "{407, 665}";
+}
+);
 layerId = "37631205-D7B2-4E6B-9DD1-7005090CBFCA";
 paths = (
 {
