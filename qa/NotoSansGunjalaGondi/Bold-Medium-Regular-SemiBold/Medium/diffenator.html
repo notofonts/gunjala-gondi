@@ -1,0 +1,2873 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSansGunjalaGondi[wght].ttf);
+    font-family: "old font";
+    font-weight: 400 700;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSansGunjalaGondi[wght].ttf);
+    font-family: "new font";
+    font-weight: 400 700;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-500_0{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 500.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 500.0;
+}
+	  
+
+	  
+	    .new-wght-500_0{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 500.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 500.0;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+     
+<div class="node" >
+GSUB
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    FeatureList
+      <div class="node" style="display:none">
+      FeatureRecord
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          Feature
+            <div class="node" style="display:none">
+            LookupListIndex
+              <div class="node" style="display:none">
+              [6]
+                <span class="attrib-before">11</span> <span class="attrib-after">10</span>
+              </div>
+              <div class="node" style="display:none">
+              [7]
+                <span class="attrib-before">13</span> <span class="attrib-after">12</span>
+              </div>
+              <div class="node" style="display:none">
+              [8]
+                <span class="attrib-before">16</span> <span class="attrib-after">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [2]
+          <div class="node" style="display:none">
+          Feature
+            <div class="node" style="display:none">
+            LookupListIndex
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">18</span> <span class="attrib-after">17</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [3]
+          <div class="node" style="display:none">
+          Feature
+            <div class="node" style="display:none">
+            LookupListIndex
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">19</span> <span class="attrib-after">18</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    LookupList
+      <div class="node" style="display:none">
+      Lookup
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                Cha.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">ChaMatraAa.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                ChaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">ChaHalant.GGondi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              alternates
+                <div class="node" style="display:none">
+                ChaHalf.GGondi
+                  <div class="node" style="display:none">
+                  [0]
+                    <span class="attrib-before">ChaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [1]
+                    <span class="attrib-before">ChaHalant.GGondi</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [8]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [16]
+                      <span class="attrib-before">Tta.GGondi</span> <span class="attrib-after">Cha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [17]
+                      <span class="attrib-before">Ttha.GGondi</span> <span class="attrib-after">Tta.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [18]
+                      <span class="attrib-before">Lla.GGondi</span> <span class="attrib-after">Ttha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [19]
+                      <span class="attrib-before">Ja.GGondi</span> <span class="attrib-after">Lla.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [20]
+                      <span class="attrib-before">Jha.GGondi</span> <span class="attrib-after">Ja.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [21]
+                      <span class="attrib-before">Dda.GGondi</span> <span class="attrib-after">Jha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [22]
+                      <span class="attrib-before">Ddha.GGondi</span> <span class="attrib-after">Dda.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [23]
+                      <span class="attrib-before">Nga.GGondi</span> <span class="attrib-after">Ddha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [24]
+                      <span class="attrib-before">Pa.GGondi</span> <span class="attrib-after">Nga.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [25]
+                      <span class="attrib-before">Pha.GGondi</span> <span class="attrib-after">Pa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [26]
+                      <span class="attrib-before">Ha.GGondi</span> <span class="attrib-after">Pha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [27]
+                      <span class="attrib-before">Ra.GGondi</span> <span class="attrib-after">Ha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [28]
+                      <span class="attrib-before">Sa.GGondi</span> <span class="attrib-after">Ra.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [29]
+                      <span class="attrib-before">ChaHalf.GGondi</span> <span class="attrib-after">Sa.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [1]
+              <div class="node" style="display:none">
+              SubstLookupRecord
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  LookupListIndex
+                    <span class="attrib-before">10</span> <span class="attrib-after">9</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [16]
+                      <span class="attrib-before">Tta.GGondi</span> <span class="attrib-after">Cha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [17]
+                      <span class="attrib-before">Ttha.GGondi</span> <span class="attrib-after">Tta.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [18]
+                      <span class="attrib-before">Lla.GGondi</span> <span class="attrib-after">Ttha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [19]
+                      <span class="attrib-before">Ja.GGondi</span> <span class="attrib-after">Lla.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [20]
+                      <span class="attrib-before">Jha.GGondi</span> <span class="attrib-after">Ja.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [21]
+                      <span class="attrib-before">Dda.GGondi</span> <span class="attrib-after">Jha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [22]
+                      <span class="attrib-before">Ddha.GGondi</span> <span class="attrib-after">Dda.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [23]
+                      <span class="attrib-before">Nga.GGondi</span> <span class="attrib-after">Ddha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [24]
+                      <span class="attrib-before">Pa.GGondi</span> <span class="attrib-after">Nga.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [25]
+                      <span class="attrib-before">Pha.GGondi</span> <span class="attrib-after">Pa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [26]
+                      <span class="attrib-before">Ha.GGondi</span> <span class="attrib-after">Pha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [27]
+                      <span class="attrib-before">Ra.GGondi</span> <span class="attrib-after">Ha.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [28]
+                      <span class="attrib-before">Sa.GGondi</span> <span class="attrib-after">Ra.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [29]
+                      <span class="attrib-before">ChaHalf.GGondi</span> <span class="attrib-after">Sa.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [9]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                Cha.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">ChaMatraAa.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                ChaHalf.GGondi
+                  <span class="attrib-before">ChaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [10]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">1</span> <span class="attrib-after">6</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              BacktrackGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              LookAheadGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstLookupRecord
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  SequenceIndex
+                    <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  LookupListIndex
+                    <span class="attrib-before">None</span> <span class="attrib-after">11</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">None</span> <span class="attrib-after">YaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <span class="attrib-before">None</span> <span class="attrib-after">VaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [2]
+                      <span class="attrib-before">None</span> <span class="attrib-after">BaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [3]
+                      <span class="attrib-before">None</span> <span class="attrib-after">BhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [4]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [5]
+                      <span class="attrib-before">None</span> <span class="attrib-after">KaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [6]
+                      <span class="attrib-before">None</span> <span class="attrib-after">KhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [7]
+                      <span class="attrib-before">None</span> <span class="attrib-after">TaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [8]
+                      <span class="attrib-before">None</span> <span class="attrib-after">ThaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [9]
+                      <span class="attrib-before">None</span> <span class="attrib-after">LaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [10]
+                      <span class="attrib-before">None</span> <span class="attrib-after">GaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [11]
+                      <span class="attrib-before">None</span> <span class="attrib-after">GhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [12]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [13]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [14]
+                      <span class="attrib-before">None</span> <span class="attrib-after">NaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [15]
+                      <span class="attrib-before">None</span> <span class="attrib-after">CaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [16]
+                      <span class="attrib-before">None</span> <span class="attrib-after">ChaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [17]
+                      <span class="attrib-before">None</span> <span class="attrib-after">TtaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [18]
+                      <span class="attrib-before">None</span> <span class="attrib-after">TthaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [19]
+                      <span class="attrib-before">None</span> <span class="attrib-after">LlaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [20]
+                      <span class="attrib-before">None</span> <span class="attrib-after">JaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [21]
+                      <span class="attrib-before">None</span> <span class="attrib-after">JhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [22]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DdaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [23]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DdhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [24]
+                      <span class="attrib-before">None</span> <span class="attrib-after">NgaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [25]
+                      <span class="attrib-before">None</span> <span class="attrib-after">PaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [26]
+                      <span class="attrib-before">None</span> <span class="attrib-after">PhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [27]
+                      <span class="attrib-before">None</span> <span class="attrib-after">HaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [28]
+                      <span class="attrib-before">None</span> <span class="attrib-after">RaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [29]
+                      <span class="attrib-before">None</span> <span class="attrib-after">SaMatraAa.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              SubstCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              InputGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraOo.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                Ya.GGondi
+                  <span class="attrib-before">YaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Va.GGondi
+                  <span class="attrib-before">VaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ba.GGondi
+                  <span class="attrib-before">BaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Bha.GGondi
+                  <span class="attrib-before">BhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ma.GGondi
+                  <span class="attrib-before">MaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ka.GGondi
+                  <span class="attrib-before">KaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Kha.GGondi
+                  <span class="attrib-before">KhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ta.GGondi
+                  <span class="attrib-before">TaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Tha.GGondi
+                  <span class="attrib-before">ThaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                La.GGondi
+                  <span class="attrib-before">LaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ga.GGondi
+                  <span class="attrib-before">GaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Gha.GGondi
+                  <span class="attrib-before">GhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Da.GGondi
+                  <span class="attrib-before">DaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Dha.GGondi
+                  <span class="attrib-before">DhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Na.GGondi
+                  <span class="attrib-before">NaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ca.GGondi
+                  <span class="attrib-before">CaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Tta.GGondi
+                  <span class="attrib-before">TtaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ttha.GGondi
+                  <span class="attrib-before">TthaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Lla.GGondi
+                  <span class="attrib-before">LlaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ja.GGondi
+                  <span class="attrib-before">JaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Jha.GGondi
+                  <span class="attrib-before">JhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Dda.GGondi
+                  <span class="attrib-before">DdaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ddha.GGondi
+                  <span class="attrib-before">DdhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Nga.GGondi
+                  <span class="attrib-before">NgaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Pa.GGondi
+                  <span class="attrib-before">PaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Pha.GGondi
+                  <span class="attrib-before">PhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ha.GGondi
+                  <span class="attrib-before">HaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Ra.GGondi
+                  <span class="attrib-before">RaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Sa.GGondi
+                  <span class="attrib-before">SaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                ChaHalf.GGondi
+                  <span class="attrib-before">ChaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">None</span> <span class="attrib-after">3</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [1]
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">None</span> <span class="attrib-after">3</span>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">None</span> <span class="attrib-after">YaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <span class="attrib-before">None</span> <span class="attrib-after">VaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [2]
+                      <span class="attrib-before">None</span> <span class="attrib-after">BaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [3]
+                      <span class="attrib-before">None</span> <span class="attrib-after">BhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [4]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [5]
+                      <span class="attrib-before">None</span> <span class="attrib-after">KaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [6]
+                      <span class="attrib-before">None</span> <span class="attrib-after">KhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [7]
+                      <span class="attrib-before">None</span> <span class="attrib-after">TaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [8]
+                      <span class="attrib-before">None</span> <span class="attrib-after">ThaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [9]
+                      <span class="attrib-before">None</span> <span class="attrib-after">LaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [10]
+                      <span class="attrib-before">None</span> <span class="attrib-after">GaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [11]
+                      <span class="attrib-before">None</span> <span class="attrib-after">GhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [12]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [13]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [14]
+                      <span class="attrib-before">None</span> <span class="attrib-after">NaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [15]
+                      <span class="attrib-before">None</span> <span class="attrib-after">CaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [16]
+                      <span class="attrib-before">None</span> <span class="attrib-after">ChaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [17]
+                      <span class="attrib-before">None</span> <span class="attrib-after">TtaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [18]
+                      <span class="attrib-before">None</span> <span class="attrib-after">TthaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [19]
+                      <span class="attrib-before">None</span> <span class="attrib-after">LlaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [20]
+                      <span class="attrib-before">None</span> <span class="attrib-after">JaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [21]
+                      <span class="attrib-before">None</span> <span class="attrib-after">JhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [22]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DdaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [23]
+                      <span class="attrib-before">None</span> <span class="attrib-after">DdhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [24]
+                      <span class="attrib-before">None</span> <span class="attrib-after">NgaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [25]
+                      <span class="attrib-before">None</span> <span class="attrib-after">PaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [26]
+                      <span class="attrib-before">None</span> <span class="attrib-after">PhaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [27]
+                      <span class="attrib-before">None</span> <span class="attrib-after">HaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [28]
+                      <span class="attrib-before">None</span> <span class="attrib-after">RaMatraAa.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [29]
+                      <span class="attrib-before">None</span> <span class="attrib-after">SaMatraAa.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              InputGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraAu.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              LookAheadGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstLookupRecord
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  SequenceIndex
+                    <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  LookupListIndex
+                    <span class="attrib-before">None</span> <span class="attrib-after">11</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="node" style="display:none">
+          SubTableCount
+            <span class="attrib-before">1</span> <span class="attrib-after">2</span>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [11]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">6</span> <span class="attrib-after">1</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              BacktrackGlyphCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              LookAheadGlyphCount
+                <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstLookupRecord
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  SequenceIndex
+                    <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  LookupListIndex
+                    <span class="attrib-before">12</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">YaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <span class="attrib-before">VaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [2]
+                      <span class="attrib-before">BaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [3]
+                      <span class="attrib-before">BhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [4]
+                      <span class="attrib-before">MaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [5]
+                      <span class="attrib-before">KaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [6]
+                      <span class="attrib-before">KhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [7]
+                      <span class="attrib-before">TaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [8]
+                      <span class="attrib-before">ThaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [9]
+                      <span class="attrib-before">LaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [10]
+                      <span class="attrib-before">GaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [11]
+                      <span class="attrib-before">GhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [12]
+                      <span class="attrib-before">DaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [13]
+                      <span class="attrib-before">DhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [14]
+                      <span class="attrib-before">NaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [15]
+                      <span class="attrib-before">CaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [16]
+                      <span class="attrib-before">ChaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [17]
+                      <span class="attrib-before">TtaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [18]
+                      <span class="attrib-before">TthaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [19]
+                      <span class="attrib-before">LlaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [20]
+                      <span class="attrib-before">JaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [21]
+                      <span class="attrib-before">JhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [22]
+                      <span class="attrib-before">DdaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [23]
+                      <span class="attrib-before">DdhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [24]
+                      <span class="attrib-before">NgaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [25]
+                      <span class="attrib-before">PaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [26]
+                      <span class="attrib-before">PhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [27]
+                      <span class="attrib-before">HaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [28]
+                      <span class="attrib-before">RaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [29]
+                      <span class="attrib-before">SaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              SubstCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              InputGlyphCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">MatraOo.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                MatraOo.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">MatraEe.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                MatraAu.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">MatraAi.GGondi</span>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [1]
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackGlyphCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">YaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <span class="attrib-before">VaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [2]
+                      <span class="attrib-before">BaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [3]
+                      <span class="attrib-before">BhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [4]
+                      <span class="attrib-before">MaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [5]
+                      <span class="attrib-before">KaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [6]
+                      <span class="attrib-before">KhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [7]
+                      <span class="attrib-before">TaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [8]
+                      <span class="attrib-before">ThaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [9]
+                      <span class="attrib-before">LaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [10]
+                      <span class="attrib-before">GaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [11]
+                      <span class="attrib-before">GhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [12]
+                      <span class="attrib-before">DaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [13]
+                      <span class="attrib-before">DhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [14]
+                      <span class="attrib-before">NaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [15]
+                      <span class="attrib-before">CaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [16]
+                      <span class="attrib-before">ChaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [17]
+                      <span class="attrib-before">TtaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [18]
+                      <span class="attrib-before">TthaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [19]
+                      <span class="attrib-before">LlaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [20]
+                      <span class="attrib-before">JaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [21]
+                      <span class="attrib-before">JhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [22]
+                      <span class="attrib-before">DdaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [23]
+                      <span class="attrib-before">DdhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [24]
+                      <span class="attrib-before">NgaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [25]
+                      <span class="attrib-before">PaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [26]
+                      <span class="attrib-before">PhaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [27]
+                      <span class="attrib-before">HaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [28]
+                      <span class="attrib-before">RaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [29]
+                      <span class="attrib-before">SaMatraAa.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              InputGlyphCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">MatraAu.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              LookAheadGlyphCount
+                <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstLookupRecord
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  SequenceIndex
+                    <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  LookupListIndex
+                    <span class="attrib-before">12</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="node" style="display:none">
+          SubTableCount
+            <span class="attrib-before">2</span> <span class="attrib-after">1</span>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [12]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">1</span> <span class="attrib-after">6</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              ChainSubClassSet
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  ChainSubClassRuleCount
+                    <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                  </div>
+                </div>
+                <div class="node" style="display:none">
+                [1]
+                  <div class="node" style="display:none">
+                  ChainSubClassRuleCount
+                    <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  ChainSubClassRule
+                    <div class="node" style="display:none">
+                    [0]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">13</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">14</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="node" style="display:none">
+                [2]
+                  <div class="node" style="display:none">
+                  ChainSubClassRuleCount
+                    <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  ChainSubClassRule
+                    <div class="node" style="display:none">
+                    [0]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">13</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">None</span> <span class="attrib-after">14</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              InputClassDef
+                <div class="node" style="display:none">
+                classDefs
+                  <div class="node" style="display:none">
+                  MatraI.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  MatraIi.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackClassDef
+                <div class="node" style="display:none">
+                classDefs
+                  <div class="node" style="display:none">
+                  Ya.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Va.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ba.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ma.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ga.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Dha.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Na.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ca.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Cha.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Lla.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ddha.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Nga.GGondi
+                    <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              Coverage
+                <div class="node" style="display:none">
+                glyphs
+                  <div class="node" style="display:none">
+                  [0]
+                    <span class="attrib-before">None</span> <span class="attrib-after">MatraI.GGondi</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [1]
+                    <span class="attrib-before">None</span> <span class="attrib-after">MatraIi.GGondi</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              ChainSubClassSetCount
+                <span class="attrib-before">None</span> <span class="attrib-after">3</span>
+              </div>
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                MatraOo.GGondi
+                  <span class="attrib-before">MatraEe.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                MatraAu.GGondi
+                  <span class="attrib-before">MatraAi.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [13]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">6</span> <span class="attrib-after">1</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              ChainSubClassSet
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  ChainSubClassRuleCount
+                    <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+                <div class="node" style="display:none">
+                [1]
+                  <div class="node" style="display:none">
+                  ChainSubClassRuleCount
+                    <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  ChainSubClassRule
+                    <div class="node" style="display:none">
+                    [0]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">14</span> <span class="attrib-after">None</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">15</span> <span class="attrib-after">None</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="node" style="display:none">
+                [2]
+                  <div class="node" style="display:none">
+                  ChainSubClassRuleCount
+                    <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  ChainSubClassRule
+                    <div class="node" style="display:none">
+                    [0]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">14</span> <span class="attrib-after">None</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <div class="node" style="display:none">
+                      BacktrackGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      Backtrack
+                        <div class="node" style="display:none">
+                        [0]
+                          <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      InputGlyphCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      LookAheadGlyphCount
+                        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstCount
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      SubstLookupRecord
+                        <div class="node" style="display:none">
+                        [0]
+                          <div class="node" style="display:none">
+                          SequenceIndex
+                            <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                          </div>
+                          <div class="node" style="display:none">
+                          LookupListIndex
+                            <span class="attrib-before">15</span> <span class="attrib-after">None</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              InputClassDef
+                <div class="node" style="display:none">
+                classDefs
+                  <div class="node" style="display:none">
+                  MatraI.GGondi
+                    <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  MatraIi.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackClassDef
+                <div class="node" style="display:none">
+                classDefs
+                  <div class="node" style="display:none">
+                  Ya.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Va.GGondi
+                    <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ba.GGondi
+                    <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ma.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ga.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Dha.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Na.GGondi
+                    <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ca.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Cha.GGondi
+                    <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Lla.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Ddha.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  Nga.GGondi
+                    <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              ChainSubClassSetCount
+                <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              Coverage
+                <div class="node" style="display:none">
+                glyphs
+                  <div class="node" style="display:none">
+                  [0]
+                    <span class="attrib-before">MatraI.GGondi</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [1]
+                    <span class="attrib-before">MatraIi.GGondi</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                MatraI.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">MatraI_alt1.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                MatraIi.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">MatraIi_alt1.GGondi</span>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [14]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                MatraIi.GGondi
+                  <span class="attrib-before">MatraIi_alt1.GGondi</span> <span class="attrib-after">MatraIi_alt2.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                MatraI.GGondi
+                  <span class="attrib-before">MatraI_alt1.GGondi</span> <span class="attrib-after">MatraI_alt2.GGondi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [15]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">1</span> <span class="attrib-after">6</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              BacktrackGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              LookAheadGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstLookupRecord
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  SequenceIndex
+                    <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  LookupListIndex
+                    <span class="attrib-before">None</span> <span class="attrib-after">16</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">None</span> <span class="attrib-after">VowelI.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <span class="attrib-before">None</span> <span class="attrib-after">VowelEe.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [2]
+                      <span class="attrib-before">None</span> <span class="attrib-after">VowelAi.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [3]
+                      <span class="attrib-before">None</span> <span class="attrib-after">VowelOo.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [4]
+                      <span class="attrib-before">None</span> <span class="attrib-after">VowelAu.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [5]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraI.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [6]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraEe.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [7]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraAi.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [8]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraOo.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [9]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraAu.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [10]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraI_alt1.GGondi</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [11]
+                      <span class="attrib-before">None</span> <span class="attrib-after">MatraIi_alt1.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              SubstCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              InputGlyphCount
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">None</span> <span class="attrib-after">Anusvara.GGondi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                MatraI.GGondi
+                  <span class="attrib-before">MatraI_alt2.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                MatraIi.GGondi
+                  <span class="attrib-before">MatraIi_alt2.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">None</span> <span class="attrib-after">3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [16]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">6</span> <span class="attrib-after">1</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              BacktrackGlyphCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              LookAheadGlyphCount
+                <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              SubstLookupRecord
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  SequenceIndex
+                    <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  LookupListIndex
+                    <span class="attrib-before">17</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              BacktrackCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">VowelI.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [1]
+                      <span class="attrib-before">VowelEe.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [2]
+                      <span class="attrib-before">VowelAi.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [3]
+                      <span class="attrib-before">VowelOo.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [4]
+                      <span class="attrib-before">VowelAu.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [5]
+                      <span class="attrib-before">MatraI.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [6]
+                      <span class="attrib-before">MatraEe.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [7]
+                      <span class="attrib-before">MatraAi.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [8]
+                      <span class="attrib-before">MatraOo.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [9]
+                      <span class="attrib-before">MatraAu.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [10]
+                      <span class="attrib-before">MatraI_alt1.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    [11]
+                      <span class="attrib-before">MatraIi_alt1.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              SubstCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              InputGlyphCount
+                <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+              </div>
+              <div class="node" style="display:none">
+              InputCoverage
+                <div class="node" style="display:none">
+                [0]
+                  <div class="node" style="display:none">
+                  glyphs
+                    <div class="node" style="display:none">
+                    [0]
+                      <span class="attrib-before">Anusvara.GGondi</span> <span class="attrib-after">None</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                Anusvara.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">Anusvara_alt.GGondi</span>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [17]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                TtaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">TtaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                RaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">RaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                GaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">GaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                KaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">KaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                MaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">MaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                TaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">TaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                YaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">YaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                GhaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">GhaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                Anusvara.GGondi
+                  <span class="attrib-before">Anusvara_alt.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                VaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">VaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                TthaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">TthaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                NgaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">NgaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                JaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">JaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                PhaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">PhaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                HaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">HaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                JhaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">JhaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                BaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">BaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                NaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">NaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                BhaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">BhaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                ChaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">ChaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                LlaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">LlaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                DdaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">DdaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                DaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">DaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                LaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">LaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                CaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">CaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                SaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">SaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                DhaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">DhaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                DdhaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">DdhaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                KhaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">KhaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                ThaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">ThaHalant.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                PaHalf.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">PaHalant.GGondi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [18]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                TtaHalf.GGondi
+                  <span class="attrib-before">TtaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                RaHalf.GGondi
+                  <span class="attrib-before">RaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                GaHalf.GGondi
+                  <span class="attrib-before">GaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                KaHalf.GGondi
+                  <span class="attrib-before">KaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                MaHalf.GGondi
+                  <span class="attrib-before">MaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                TaHalf.GGondi
+                  <span class="attrib-before">TaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                YaHalf.GGondi
+                  <span class="attrib-before">YaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                GhaHalf.GGondi
+                  <span class="attrib-before">GhaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                VaHalf.GGondi
+                  <span class="attrib-before">VaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                TthaHalf.GGondi
+                  <span class="attrib-before">TthaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                NgaHalf.GGondi
+                  <span class="attrib-before">NgaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                JaHalf.GGondi
+                  <span class="attrib-before">JaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                PhaHalf.GGondi
+                  <span class="attrib-before">PhaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                HaHalf.GGondi
+                  <span class="attrib-before">HaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                JhaHalf.GGondi
+                  <span class="attrib-before">JhaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                BaHalf.GGondi
+                  <span class="attrib-before">BaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                NaHalf.GGondi
+                  <span class="attrib-before">NaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                BhaHalf.GGondi
+                  <span class="attrib-before">BhaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                ChaHalf.GGondi
+                  <span class="attrib-before">ChaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                LlaHalf.GGondi
+                  <span class="attrib-before">LlaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                DdaHalf.GGondi
+                  <span class="attrib-before">DdaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                DaHalf.GGondi
+                  <span class="attrib-before">DaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                LaHalf.GGondi
+                  <span class="attrib-before">LaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                CaHalf.GGondi
+                  <span class="attrib-before">CaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                SaHalf.GGondi
+                  <span class="attrib-before">SaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                DhaHalf.GGondi
+                  <span class="attrib-before">DhaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                DdhaHalf.GGondi
+                  <span class="attrib-before">DdhaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                KhaHalf.GGondi
+                  <span class="attrib-before">KhaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                ThaHalf.GGondi
+                  <span class="attrib-before">ThaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+                <div class="node" style="display:none">
+                Om.GGondi
+                  <span class="attrib-before">None</span> <span class="attrib-after">Om_alt.GGondi</span>
+                </div>
+                <div class="node" style="display:none">
+                PaHalf.GGondi
+                  <span class="attrib-before">PaHalant.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [19]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+          </div>
+          <div class="node" style="display:none">
+          LookupFlag
+            <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTableCount
+            <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              mapping
+                <div class="node" style="display:none">
+                Om.GGondi
+                  <span class="attrib-before">Om_alt.GGondi</span> <span class="attrib-after">None</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="node" style="display:none">
+      LookupCount
+        <span class="attrib-before">20</span> <span class="attrib-after">19</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+head
+  <div class="node" style="display:none">
+  modified
+    <span class="attrib-before">3753697699</span> <span class="attrib-after">3767612850</span>
+  </div>
+  <div class="node" style="display:none">
+  checkSumAdjustment
+    <span class="attrib-before">1128625005</span> <span class="attrib-after">1134871011</span>
+  </div>
+</div>
+<div class="node" >
+post
+  <div class="node" style="display:none">
+  extraNames
+    <div class="node" style="display:none">
+    [250]
+      <span class="attrib-before">_Halant.GGondi</span> <span class="attrib-after">uni00A0</span>
+    </div>
+    <div class="node" style="display:none">
+    [251]
+      <span class="attrib-before">uni00A0</span> <span class="attrib-after">_Halant.GGondi</span>
+    </div>
+  </div>
+</div>
+<div class="node" >
+GPOS
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    FeatureList
+      <div class="node" style="display:none">
+      FeatureCount
+        <span class="attrib-before">4</span> <span class="attrib-after">3</span>
+      </div>
+      <div class="node" style="display:none">
+      FeatureRecord
+        <div class="node" style="display:none">
+        [2]
+          <div class="node" style="display:none">
+          FeatureTag
+            <span class="attrib-before">kern</span> <span class="attrib-after">mark</span>
+          </div>
+          <div class="node" style="display:none">
+          Feature
+            <div class="node" style="display:none">
+            LookupListIndex
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">0</span> <span class="attrib-after">3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [3]
+          <div class="node" style="display:none">
+          FeatureTag
+            <span class="attrib-before">mark</span> <span class="attrib-after">None</span>
+          </div>
+          <div class="node" style="display:none">
+          Feature
+            <div class="node" style="display:none">
+            LookupCount
+              <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+            </div>
+            <div class="node" style="display:none">
+            LookupListIndex
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    ScriptList
+      <div class="node" style="display:none">
+      ScriptRecord
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          Script
+            <div class="node" style="display:none">
+            DefaultLangSys
+              <div class="node" style="display:none">
+              FeatureIndex
+                <div class="node" style="display:none">
+                [2]
+                  <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              FeatureCount
+                <span class="attrib-before">3</span> <span class="attrib-after">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          Script
+            <div class="node" style="display:none">
+            DefaultLangSys
+              <div class="node" style="display:none">
+              FeatureIndex
+                <div class="node" style="display:none">
+                [2]
+                  <span class="attrib-before">3</span> <span class="attrib-after">2</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+glyf
+  <div class="node" style="display:none">
+  glyphOrder
+    <div class="node" style="display:none">
+    [252]
+      <span class="attrib-before">_Halant.GGondi</span> <span class="attrib-after">uni00A0</span>
+    </div>
+    <div class="node" style="display:none">
+    [253]
+      <span class="attrib-before">uni00A0</span> <span class="attrib-after">_Halant.GGondi</span>
+    </div>
+  </div>
+</div>
+<div class="node" >
+HVAR
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    VarStore
+      <div class="node" style="display:none">
+      VarData
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          Item
+            <div class="node" style="display:none">
+            [252]
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">0</span> <span class="attrib-after">-20</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            [253]
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">-20</span> <span class="attrib-after">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-500_0" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-500_0" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+    const divs = document.querySelectorAll('.node');
+    divs.forEach(el => el.addEventListener('click', event => {
+    var children = event.target.querySelectorAll(".node");
+    children.forEach(function(e) {
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        }
+    })
+    }));
+    
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>
