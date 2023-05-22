@@ -1,15 +1,15 @@
 {
-.appVersion = "3109";
+.appVersion = "3180";
 DisplayStrings = (
 "/uni25CC"
 );
 classes = (
 {
-code = "Ya.GGondi  Va.GGondi  Ba.GGondi  Bha.GGondi Ma.GGondi  Ka.GGondi  Kha.GGondi  Ta.GGondi Tha.GGondi  La.GGondi  Ga.GGondi  Gha.GGondi Da.GGondi  Dha.GGondi  Na.GGondi  Ca.GGondi ChaHalf.GGondi  Tta.GGondi  Ttha.GGondi  Lla.GGondi Ja.GGondi  Jha.GGondi  Dda.GGondi  Ddha.GGondi Nga.GGondi  Pa.GGondi  Pha.GGondi  Ha.GGondi Ra.GGondi  Sa.GGondi \012";
+code = "Ya.GGondi  Va.GGondi  Ba.GGondi  Bha.GGondi Ma.GGondi  Ka.GGondi  Kha.GGondi  Ta.GGondi Tha.GGondi  La.GGondi  Ga.GGondi  Gha.GGondi Da.GGondi  Dha.GGondi  Na.GGondi  Ca.GGondi Cha.GGondi  Tta.GGondi  Ttha.GGondi  Lla.GGondi Ja.GGondi  Jha.GGondi  Dda.GGondi  Ddha.GGondi Nga.GGondi  Pa.GGondi  Pha.GGondi  Ha.GGondi Ra.GGondi  Sa.GGondi\012";
 name = Base;
 },
 {
-code = "YaMatraAa.GGondi  VaMatraAa.GGondi  BaMatraAa.GGondi  BhaMatraAa.GGondi MaMatraAa.GGondi  KaMatraAa.GGondi  KhaMatraAa.GGondi  TaMatraAa.GGondi ThaMatraAa.GGondi  LaMatraAa.GGondi  GaMatraAa.GGondi  GhaMatraAa.GGondi DaMatraAa.GGondi  DhaMatraAa.GGondi  NaMatraAa.GGondi  CaMatraAa.GGondi ChaMatraAa.GGondi  TtaMatraAa.GGondi  TthaMatraAa.GGondi  LlaMatraAa.GGondi JaMatraAa.GGondi  JhaMatraAa.GGondi  DdaMatraAa.GGondi  DdhaMatraAa.GGondi NgaMatraAa.GGondi  PaMatraAa.GGondi  PhaMatraAa.GGondi  HaMatraAa.GGondi RaMatraAa.GGondi  SaMatraAa.GGondi ";
+code = "YaMatraAa.GGondi  VaMatraAa.GGondi  BaMatraAa.GGondi  BhaMatraAa.GGondi MaMatraAa.GGondi  KaMatraAa.GGondi  KhaMatraAa.GGondi  TaMatraAa.GGondi ThaMatraAa.GGondi  LaMatraAa.GGondi  GaMatraAa.GGondi  GhaMatraAa.GGondi DaMatraAa.GGondi  DhaMatraAa.GGondi  NaMatraAa.GGondi  CaMatraAa.GGondi ChaMatraAa.GGondi  TtaMatraAa.GGondi  TthaMatraAa.GGondi  LlaMatraAa.GGondi JaMatraAa.GGondi  JhaMatraAa.GGondi  DdaMatraAa.GGondi  DdhaMatraAa.GGondi NgaMatraAa.GGondi  PaMatraAa.GGondi  PhaMatraAa.GGondi  HaMatraAa.GGondi RaMatraAa.GGondi  SaMatraAa.GGondi\012";
 name = BaseMatraAa;
 },
 {
