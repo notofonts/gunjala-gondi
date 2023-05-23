@@ -17,9 +17,9 @@ Fontbakery version: 0.8.12a0
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -146,9 +146,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -236,9 +236,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -360,9 +360,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -410,25 +410,25 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'LaHalant.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'KhaHalant.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 1 start point differs in glyph 'Om.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 2 start point differs in glyph 'KhaHalant.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 1 start point differs in glyph 'KhaHalant.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 0 start point differs in glyph 'colon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 2 start point differs in glyph 'KhaHalant.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 1 start point differs in glyph 'colon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 0 start point differs in glyph 'asterisk.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 1 start point differs in glyph 'Five.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 1 start point differs in glyph 'KhaMatraAa.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 0 start point differs in glyph 'asterisk.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 2 start point differs in glyph 'KhaMatraAa.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 1 start point differs in glyph 'semicolon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 3 start point differs in glyph 'KhaMatraAa.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 1 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 1 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350>
+	- Contour 2 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
 
-	- Contour 2 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1dd90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa077e1e350> 
+	- Contour order differs in glyph 'quotedbl.GGondi': [0, 1] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350>, [1, 0] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>. 
 
 	- 12 more.
 
@@ -472,8 +472,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 10 | 31 | 451 | 26 | 407 | 0 |
-| 0% | 1% | 3% | 49% | 3% | 44% | 0% |
+| 4 | 10 | 31 | 445 | 26 | 413 | 0 |
+| 0% | 1% | 3% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
