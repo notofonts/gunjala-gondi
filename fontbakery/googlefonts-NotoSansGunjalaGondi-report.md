@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.12a0
+Fontbakery version: 0.8.13
 
 <details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -410,25 +410,25 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'KhaHalant.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour order differs in glyph 'quotedbl.GGondi': [0, 1] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0>, [1, 0] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>.
 
-	- Contour 2 start point differs in glyph 'KhaHalant.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 0 start point differs in glyph 'plus.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour 0 start point differs in glyph 'colon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 0 start point differs in glyph 'colon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour 1 start point differs in glyph 'colon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 1 start point differs in glyph 'colon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour 1 start point differs in glyph 'Five.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 1 start point differs in glyph 'semicolon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour 0 start point differs in glyph 'asterisk.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 1 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour 1 start point differs in glyph 'semicolon.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 2 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour 1 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 1 start point differs in glyph 'Five.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour 2 start point differs in glyph 'BhaMatraU.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>
+	- Contour 0 start point differs in glyph 'asterisk.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0>
 
-	- Contour order differs in glyph 'quotedbl.GGondi': [0, 1] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf350>, [1, 0] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8e99cdf150>. 
+	- Contour 1 start point differs in glyph 'KhaMatraAa.GGondi' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe690e19dd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fe68fe71ed0> 
 
 	- 12 more.
 
@@ -472,8 +472,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 10 | 31 | 445 | 26 | 413 | 0 |
-| 0% | 1% | 3% | 48% | 3% | 44% | 0% |
+| 4 | 10 | 31 | 453 | 26 | 409 | 0 |
+| 0% | 1% | 3% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
