@@ -1,7 +1,8 @@
 {
-.appVersion = "3225";
+.appVersion = "3217";
 DisplayStrings = (
-"/semicolon.GGondi"
+"/semicolon.GGondi",
+"/BhaHalf.GGondi"
 );
 classes = (
 {
@@ -13,7 +14,7 @@ code = "YaMatraAa.GGondi  VaMatraAa.GGondi  BaMatraAa.GGondi  BhaMatraAa.GGondi 
 name = BaseMatraAa;
 },
 {
-code = "Ya.GGondi  Va.GGondi  Ba.GGondi  Bha.GGondi Ma.GGondi  Ka.GGondi  Kha.GGondi  Ta.GGondi Tha.GGondi  La.GGondi  Ga.GGondi  Gha.GGondi Da.GGondi  Dha.GGondi  Na.GGondi  Ca.GGondi Cha.GGondi  Tta.GGondi  Ttha.GGondi  Lla.GGondi Ja.GGondi  Jha.GGondi  Dda.GGondi  Ddha.GGondi Nga.GGondi  Pa.GGondi  Pha.GGondi  Ha.GGondi Ra.GGondi  Sa.GGondi YaMatraAa.GGondi  VaMatraAa.GGondi  BaMatraAa.GGondi  BhaMatraAa.GGondi MaMatraAa.GGondi  KaMatraAa.GGondi  KhaMatraAa.GGondi  TaMatraAa.GGondi ThaMatraAa.GGondi  LaMatraAa.GGondi  GaMatraAa.GGondi  GhaMatraAa.GGondi DaMatraAa.GGondi  DhaMatraAa.GGondi  NaMatraAa.GGondi  CaMatraAa.GGondi ChaMatraAa.GGondi  TtaMatraAa.GGondi  TthaMatraAa.GGondi  LlaMatraAa.GGondi JaMatraAa.GGondi  JhaMatraAa.GGondi  DdaMatraAa.GGondi  DdhaMatraAa.GGondi NgaMatraAa.GGondi  PaMatraAa.GGondi  PhaMatraAa.GGondi  HaMatraAa.GGondi RaMatraAa.GGondi  SaMatraAa.GGondi YaMatraU.GGondi VaMatraU.GGondi BaMatraU.GGondi BhaMatraU.GGondi MaMatraU.GGondi KaMatraU.GGondi KhaMatraU.GGondi TaMatraU.GGondi ThaMatraU.GGondi LaMatraU.GGondi GaMatraU.GGondi GhaMatraU.GGondi DaMatraU.GGondi DhaMatraU.GGondi NaMatraU.GGondi CaMatraU.GGondi ChaMatraU.GGondi TtaMatraU.GGondi TthaMatraU.GGondi LlaMatraU.GGondi JaMatraU.GGondi JhaMatraU.GGondi DdaMatraU.GGondi DdhaMatraU.GGondi NgaMatraU.GGondi PaMatraU.GGondi PhaMatraU.GGondi HaMatraU.GGondi RaMatraU.GGondi SaMatraU.GGondi YaMatraUu.GGondi VaMatraUu.GGondi BaMatraUu.GGondi BhaMatraUu.GGondi MaMatraUu.GGondi KaMatraUu.GGondi KhaMatraUu.GGondi TaMatraUu.GGondi ThaMatraUu.GGondi LaMatraUu.GGondi GaMatraUu.GGondi GhaMatraUu.GGondi DaMatraUu.GGondi DhaMatraUu.GGondi NaMatraUu.GGondi CaMatraUu.GGondi ChaMatraUu.GGondi TtaMatraUu.GGondi TthaMatraUu.GGondi LlaMatraUu.GGondi JaMatraUu.GGondi JhaMatraUu.GGondi DdaMatraUu.GGondi DdhaMatraUu.GGondi NgaMatraUu.GGondi PaMatraUu.GGondi PhaMatraUu.GGondi HaMatraUu.GGondi RaMatraUu.GGondi SaMatraUu.GGondi YaHalf.GGondi  VaHalf.GGondi  BaHalf.GGondi  BhaHalf.GGondi MaHalf.GGondi  KaHalf.GGondi  KhaHalf.GGondi  TaHalf.GGondi ThaHalf.GGondi  LaHalf.GGondi  GaHalf.GGondi  GhaHalf.GGondi DaHalf.GGondi  DhaHalf.GGondi  NaHalf.GGondi  CaHalf.GGondi ChaHalf.GGondi  TtaHalf.GGondi  TthaHalf.GGondi  LlaHalf.GGondi JaHalf.GGondi  JhaHalf.GGondi  DdaHalf.GGondi  DdhaHalf.GGondi NgaHalf.GGondi  PaHalf.GGondi  PhaHalf.GGondi  HaHalf.GGondi RaHalf.GGondi  SaHalf.GGondi YaHalant.GGondi  VaHalant.GGondi  BaHalant.GGondi  BhaHalant.GGondi MaHalant.GGondi  KaHalant.GGondi  KhaHalant.GGondi  TaHalant.GGondi ThaHalant.GGondi  LaHalant.GGondi  GaHalant.GGondi  GhaHalant.GGondi DaHalant.GGondi  DhaHalant.GGondi  NaHalant.GGondi  CaHalant.GGondi ChaHalant.GGondi  TtaHalant.GGondi  TthaHalant.GGondi  LlaHalant.GGondi JaHalant.GGondi  JhaHalant.GGondi  DdaHalant.GGondi  DdhaHalant.GGondi NgaHalant.GGondi  PaHalant.GGondi  PhaHalant.GGondi  HaHalant.GGondi RaHalant.GGondi  SaHalant.GGondi ";
+code = "Ya.GGondi  Va.GGondi  Ba.GGondi  Bha.GGondi Ma.GGondi  Ka.GGondi  Kha.GGondi  Ta.GGondi Tha.GGondi  La.GGondi  Ga.GGondi  Gha.GGondi Da.GGondi  Dha.GGondi  Na.GGondi  Ca.GGondi Cha.GGondi  Tta.GGondi  Ttha.GGondi  Lla.GGondi Ja.GGondi  Jha.GGondi  Dda.GGondi  Ddha.GGondi Nga.GGondi  Pa.GGondi  Pha.GGondi  Ha.GGondi Ra.GGondi  Sa.GGondi YaMatraAa.GGondi  VaMatraAa.GGondi  BaMatraAa.GGondi  BhaMatraAa.GGondi MaMatraAa.GGondi  KaMatraAa.GGondi  KhaMatraAa.GGondi  TaMatraAa.GGondi ThaMatraAa.GGondi  LaMatraAa.GGondi  GaMatraAa.GGondi  GhaMatraAa.GGondi DaMatraAa.GGondi  DhaMatraAa.GGondi  NaMatraAa.GGondi  CaMatraAa.GGondi ChaMatraAa.GGondi  TtaMatraAa.GGondi  TthaMatraAa.GGondi  LlaMatraAa.GGondi JaMatraAa.GGondi  JhaMatraAa.GGondi  DdaMatraAa.GGondi  DdhaMatraAa.GGondi NgaMatraAa.GGondi  PaMatraAa.GGondi  PhaMatraAa.GGondi  HaMatraAa.GGondi RaMatraAa.GGondi  SaMatraAa.GGondi YaMatraU.GGondi VaMatraU.GGondi BaMatraU.GGondi BhaMatraU.GGondi MaMatraU.GGondi KaMatraU.GGondi KhaMatraU.GGondi TaMatraU.GGondi ThaMatraU.GGondi LaMatraU.GGondi GaMatraU.GGondi GhaMatraU.GGondi DaMatraU.GGondi DhaMatraU.GGondi NaMatraU.GGondi CaMatraU.GGondi ChaMatraU.GGondi TtaMatraU.GGondi TthaMatraU.GGondi LlaMatraU.GGondi JaMatraU.GGondi JhaMatraU.GGondi DdaMatraU.GGondi DdhaMatraU.GGondi NgaMatraU.GGondi PaMatraU.GGondi PhaMatraU.GGondi HaMatraU.GGondi RaMatraU.GGondi SaMatraU.GGondi YaMatraUu.GGondi VaMatraUu.GGondi BaMatraUu.GGondi BhaMatraUu.GGondi MaMatraUu.GGondi KaMatraUu.GGondi KhaMatraUu.GGondi TaMatraUu.GGondi ThaMatraUu.GGondi LaMatraUu.GGondi GaMatraUu.GGondi GhaMatraUu.GGondi DaMatraUu.GGondi DhaMatraUu.GGondi NaMatraUu.GGondi CaMatraUu.GGondi ChaMatraUu.GGondi TtaMatraUu.GGondi TthaMatraUu.GGondi LlaMatraUu.GGondi JaMatraUu.GGondi JhaMatraUu.GGondi DdaMatraUu.GGondi DdhaMatraUu.GGondi NgaMatraUu.GGondi PaMatraUu.GGondi PhaMatraUu.GGondi HaMatraUu.GGondi RaMatraUu.GGondi SaMatraUu.GGondi YaHalf.GGondi  VaHalf.GGondi  BaHalf.GGondi  BhaHalf.GGondi MaHalf.GGondi  KaHalf.GGondi  KhaHalf.GGondi  TaHalf.GGondi ThaHalf.GGondi  LaHalf.GGondi  GaHalf.GGondi  GhaHalf.GGondi DaHalf.GGondi  DhaHalf.GGondi  NaHalf.GGondi  CaHalf.GGondi ChaHalf.GGondi  TtaHalf.GGondi  TthaHalf.GGondi  LlaHalf.GGondi JaHalf.GGondi  JhaHalf.GGondi  DdaHalf.GGondi  DdhaHalf.GGondi NgaHalf.GGondi  PaHalf.GGondi  PhaHalf.GGondi  HaHalf.GGondi RaHalf.GGondi  SaHalf.GGondi YaHalant.GGondi  VaHalant.GGondi  BaHalant.GGondi  BhaHalant.GGondi MaHalant.GGondi  KaHalant.GGondi  KhaHalant.GGondi  TaHalant.GGondi ThaHalant.GGondi  LaHalant.GGondi  GaHalant.GGondi  GhaHalant.GGondi DaHalant.GGondi  DhaHalant.GGondi  NaHalant.GGondi  CaHalant.GGondi ChaHalant.GGondi  TtaHalant.GGondi  TthaHalant.GGondi  LlaHalant.GGondi JaHalant.GGondi  JhaHalant.GGondi  DdaHalant.GGondi  DdhaHalant.GGondi NgaHalant.GGondi  PaHalant.GGondi  PhaHalant.GGondi  HaHalant.GGondi RaHalant.GGondi  SaHalant.GGondi \012\012zerowidthjoiner # Produce bare half forms before ZWJ";
 name = BaseAll;
 },
 {
@@ -23921,7 +23922,7 @@ width = 1023;
 {
 color = 6;
 glyphname = BhaHalf.GGondi;
-lastChange = "2021-10-18 08:30:41 +0000";
+lastChange = "2024-09-11 11:14:29 +0000";
 layers = (
 {
 background = {
@@ -24130,8 +24131,8 @@ closed = 1;
 nodes = (
 "972 561 LINE",
 "972 622 LINE",
-"965 622 LINE",
-"965 561 LINE"
+"-10 622 LINE",
+"-10 561 LINE"
 );
 }
 );
@@ -24238,8 +24239,8 @@ closed = 1;
 nodes = (
 "1039 521 LINE",
 "1039 622 LINE",
-"1025 622 LINE",
-"1025 521 LINE"
+"-10 622 LINE",
+"-10 521 LINE"
 );
 }
 );
